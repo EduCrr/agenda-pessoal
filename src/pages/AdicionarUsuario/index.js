@@ -60,6 +60,10 @@ export const AdicionarUsuario = () => {
     if (!telefoneNumeros.match(/^\d{11}$/)) {
       errors.push("O campo telefone deve estar no formato (99) 99999-9999");
     }
+
+    if (selectedRole === '') {
+      errors.push("Preencha o tipo");
+    }
   
     const dataNumeros = dataNascimento ? dataNascimento.replace(/[^0-9]/g, '') : '';
 
@@ -152,7 +156,8 @@ export const AdicionarUsuario = () => {
               <div className="adjust">
                 <label>Tipo de usuário</label>
                 <select id="roleSelect" value={selectedRole} onChange={handleRoleChange}>
-                  <option value="ROLE_ADMIN">ADMIN</option>
+                <option value="">Selecione tipo</option>
+                <option value="ROLE_ADMIN">ADMIN</option>
                   <option value="ROLE_USER">USER</option>
                 </select>
               </div>
