@@ -1,6 +1,6 @@
-Algumas considerações sobre o projeto:
-
 Faça o download dos arquivos e clique em "extrair arquivos". Em seguida, execute os seguintes comandos: "npm install" e, depois, "npm start".
+
+Algumas considerações sobre o projeto:
 
 Encontrei alguns problemas nas requisições desta API e gostaria de destacar alguns casos de erro:
 
