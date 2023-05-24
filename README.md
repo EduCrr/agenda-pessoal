@@ -14,12 +14,7 @@ Houve um erro ao excluir uma pessoa e existem usuários com IDs duplicados.
 <img src="https://github.com/EduCrr/chairs/assets/87316285/03e07bbc-8784-4d6b-aee9-21f8847c9839" width="700px" />
 </div>
 
-A solicitação GET /api/foto/download/{id} não retorna a foto da pessoa. No momento, estou utilizando uma foto estática incorporada no código.
-<div align="left">
-<img src="https://github.com/EduCrr/chairs/assets/87316285/d6903a00-9b5f-4122-9a7b-ba7aad64845c" width="700px" />
-</div>
-
-A solicitação GET /api/foto/download/{id} não retorna a foto da pessoa. No momento, estou utilizando uma foto estática incorporada no código.
+A solicitação GET /api/foto/download/{id} não está retornando a foto da pessoa, como mostra a imagem abaixo. No momento, estou utilizando uma foto estática incorporada no código.
 <div align="left">
 <img src="https://github.com/EduCrr/chairs/assets/87316285/d6903a00-9b5f-4122-9a7b-ba7aad64845c" width="700px" />
 </div>
